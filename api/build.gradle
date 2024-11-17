@@ -4,6 +4,9 @@ plugins {
 
 dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'org.apache.commons:commons-lang3:3.0'
+    implementation 'org.mockito:mockito-core:4.1.0'
 }
 
 springBoot {
